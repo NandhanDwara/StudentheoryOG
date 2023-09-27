@@ -6,7 +6,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def GPT(request):
     if request.method == 'POST':
