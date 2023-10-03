@@ -1,11 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 import openai
-
-from django.shortcuts import render
-from django.http import JsonResponse
-import openai
-
 openai.api_key = "ADD YOUR API KEY"
 
 def GPT(request):
