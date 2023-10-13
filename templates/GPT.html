@@ -55,7 +55,7 @@
                     },
                     success: function (data) {
                         let bot_response = data.response;
-                        let bot_message = $('<p>').text('ChatGPT: ' + bot_response);
+                        let bot_message = $('<p>').text('AI Assistant: ' + bot_response);
                         $('#chat-window').append(bot_message);
                         $('#chat-window').scrollTop($('#chat-window')[0].scrollHeight);
                     }
